@@ -19,7 +19,7 @@ st.title("TRADUCTOR.")
 st.subheader("Escucho lo que quieres traducir.")
 
 
-image = Image.open('OIG7.jpg')
+image = Image.open('traductor.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
@@ -29,7 +29,7 @@ with st.sidebar:
                  " la configuración de lenguaje que necesites.")
 
 
-st.write("Toca el Botón y habla lo que quires traducir")
+st.write("Presiona el botón y habla lo que quires traducir")
 
 stt_button = Button(label=" Escuchar  🎤", width=300,  height=50)
 
